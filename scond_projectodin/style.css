@@ -117,8 +117,8 @@ main .nuture h1 {
     font-size: 36px;
     font-weight: bolder;
     color:#1f2937 ;
-    /* margin-bottom: 6rem; */
     padding-top: 5px;
+    padding-bottom: 90px;
 }
 
 main .nuture  img {
@@ -135,7 +135,7 @@ main .nuture .img_nuture {
 
 main .nuture .img_nuture div p {
     width: 175px;
-    color: #e5e7eb;
+    color: #333538;
     font-size: 18px;
     margin-right: -80px;
 }
@@ -168,7 +168,7 @@ main .nuture .img_nuture div:hover {
  main #about p {
     color: #28437a;
     font-size: 36px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 70px;
     width: 800px;
  }
@@ -235,5 +235,12 @@ footer{
     justify-content: center;
     align-items: center;
     color: #fff;
-    font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+
+button:hover {
+    background-color: #1f2937;
+    transform: scale(1.2,1.1);
+}
+
+
